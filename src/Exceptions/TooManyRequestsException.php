@@ -30,7 +30,7 @@ class TooManyRequestsException extends Exception
             $this->ip,
             $this->method,
             $this->component,
-            $this->secondsUntilAvailable,
+            $this->secondsUntilAvailable
         ));
     }
 }
